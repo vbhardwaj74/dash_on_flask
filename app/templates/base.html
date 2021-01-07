@@ -6,6 +6,8 @@
   {% else %}
   <a href="{{ url_for('main.logout') }}">Logout</a>
   {% endif %}
+  <a href="{{ url_for('main.dashboard') }}">Dashboard</a>
+  {% endif %}
 
   {% block content %}
   {% endblock %}
